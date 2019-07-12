@@ -1,0 +1,13 @@
+@import '../styling/general';
+
+.img {
+  @include border;
+}
+
+.header{
+  @include header;
+}
+
+.text{
+  @include text;
+}

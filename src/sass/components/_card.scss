@@ -1,0 +1,12 @@
+@import '../styling/general';
+
+
+.card{
+  h3{ 
+    @include header;
+  }
+  div{
+    @include text;
+  }
+  @include border;
+}
